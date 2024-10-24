@@ -6,7 +6,7 @@
         static void Main()
     {
         string frase;
-        Console.WriteLine("Entre com a frase codificada:");
+        Console.WriteLine("Entre com a frase com p:");
         frase= Console.ReadLine();
         for(int i = 1;i<frase.Length;i++)
         {
