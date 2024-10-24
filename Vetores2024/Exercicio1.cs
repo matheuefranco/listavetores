@@ -14,7 +14,7 @@ using Arrays;
        static void Main()
         {
             int n;
-            Console.WriteLine("Tamanho do vetor:");
+            Console.WriteLine("Tamanho do vetor [limite 100]:");
             n = int.Parse(Console.ReadLine());
             int[] meuVetor = new int[n];
             BibliotecaArray.geraVetor(meuVetor);
